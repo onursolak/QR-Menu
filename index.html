@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!------------- Navbar ------------->
+
+    <div id="navbar" class="dropdown">
+
+        <!-- List -->
+        <div class="nbicons" id="list">
+            <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="#ekler">Ekler</a></li>
+                <li><a class="dropdown-item" href="#cheesecake">Cheesecake</a></li>
+                <li><a class="dropdown-item" href="#magnolya">Magnolya</a></li>
+                <li><a class="dropdown-item" href="#hamburger">Hamburger</a></li>
+            </ul>
+        </div>
+
+        <!-- Logo -->
+        <div id="logo">
+            <img src="img/samsun-big-yellow-taxi-benzin-1.png" alt="">
+        </div>
+
+        <!-- Contact -->
+        <div class="nbicons" id="contact">
+            <a class="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+
+            <ul class="dropdown-menu dropdown-menu-dark" id="contactitems">
+                <li>
+                    <a class="dropdown-item" href="https://www.instagram.com/chocolade_boutique/"
+                        style="display: flex; align-items: center;">
+                        <i class="fa-brands fa-instagram" style="margin-right: .5rem;"></i>
+                        <span>İnstagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#" style="display: flex; align-items: center;">
+                        <i class="fa-brands fa-twitter" style="margin-right: .5rem;"></i>
+                        <span>Twitter</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="#" style="display: flex; align-items: center;">
+                        <i class="fa-brands fa-facebook" style="margin-right: .5rem;"></i>
+                        <span>Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li>
+                    <a class="dropdown-item" href="tel:+905427755633" style="display: flex; align-items: center;">
+                        <i class="fa-solid fa-phone" style="margin-right: .5rem;"></i>
+                        <span>(525) 225 25 25</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+    <!------------- Menu ------------->
+
+    <div id="menu">
+
+        <div class="carddiv">
+            <div id="ekler" class="card">
+                <img src="img/tatli kopyası.jpg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Ekler</h5>
+                    <hr>
+                    <p class="card-text"><span>10 Tane:</span> 30₺</p>
+                    <p class="card-text"><span>20 Tane:</span> 50₺</p>
+                    <p class="card-text"><span>30 Tane:</span> 75₺</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carddiv">
+            <div id="cheesecake" class="card">
+                <img src="img/cikolata-soslu-cheesecake-ee821040-80f1-4413-bcea-2e2f3c526dfd.jpg.webp" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Cheesecake</h5>
+                    <hr>
+                    <p class="card-text"><span>Çikolatalı:</span> 70₺</p>
+                    <p class="card-text"><span>Çilekli:</span> 70₺</p>
+                    <p class="card-text"><span>Sade:</span> 65₺</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carddiv">
+            <div id="magnolya" class="card">
+                <img src="img/magnolia-tarifi-yemekcom.webp" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Magnolya</h5>
+                    <hr>
+                    <p class="card-text"><span>1 cup:</span> 45₺</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="carddiv">
+            <div id="hamburger" class="card">
+                <img src="img/hamburger kopyası.jpeg" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Hamburger</h5>
+                    <hr>
+                    <p class="card-text"><span>Köfteburger:</span> 75₺</p>
+                    <p class="card-text"><span>Tavukburger:</span> 60₺</p>
+                    <p class="card-text"><span>Cheeseburger:</span> 85₺</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
